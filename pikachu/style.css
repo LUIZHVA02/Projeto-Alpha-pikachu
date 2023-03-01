@@ -1,0 +1,20 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 6fr 2fr;
+    padding: 01px 01px 01px 01px;
+}
+header{
+    background-color: red;
+}
+main{    background-color: darkgrey;
+}
+footer{
+    background-color: navy;
+}
