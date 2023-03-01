@@ -8,13 +8,14 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 2fr 6fr 2fr;
-    padding: 01px 01px 01px 01px;
+    padding: 70px 70px 24px 70px;
 }
 header{
-    background-color: red;
+    background-color: yellow;
+    
 }
-main{    background-color: darkgrey;
+main{    background-color: yellow;
 }
 footer{
-    background-color: navy;
+    background-color: yellow;
 }
