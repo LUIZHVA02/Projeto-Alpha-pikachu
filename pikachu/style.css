@@ -10,7 +10,7 @@ body{
     background-color: #F5CF06;
     height: 100vh;
     display: grid;
-    grid-template-rows: 100px 1fr 50px;
+    grid-template-rows: 100px 1fr 100px;
     padding: 70px 70px 24px 70px;
 }
 .logo{
@@ -20,7 +20,7 @@ gap:24px;
 }
 .logo__text{
     font-size: 32px;
-    font-weight: 100px
+    font-weight: 100px;
 }
 main{
     display: grid;
@@ -28,32 +28,34 @@ main{
     grid-template-rows: 2fr 1fr;
 }
 .title{
+    position: relative;
     grid-column: 1/-1;
     place-self: center;
 }
 .title__text{
-    font-size: 350px;
+    font-size: 20vw;
     color: #fff;
    
 }
-.title-transparent{
+.title__transparent{
     position: absolute;
-    font-size: 400px;
-    color: #fff5;
+    font-size: 27vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%); 
+    color: #fff5;
     z-index: -1;
 }
 .description{
     place-self: end start;
 }
-.description-title{
+.description__title{
     font-size: 60px;
     width: 500px;
 }
-.description-text{
-    
+.description__text{
+    font-size: 20px;
+    width: 500px;
 }
 .action{
     place-self: end;
@@ -64,7 +66,7 @@ main{
     font-size: 48px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     text-decoration: none;
 }
 footer{
@@ -72,7 +74,7 @@ footer{
     justify-content: center;
     align-items: end;
 }
-.pikachu-image{
+.pikachu__image{
     position: absolute;
     top: 50%;
     left: 50%;
